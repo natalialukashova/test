@@ -5,3 +5,6 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo/_span/header__logo_span.css);
+@import url(../blocks/header/__menu/_item/header__menu_item.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__container/header__container.css);

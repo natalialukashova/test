@@ -1,10 +1,8 @@
 @import "https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Raleway:wght@800&display=swap";
 .header {
-  justify-content: space-between;
-  width: 1170px;
-  margin: 0 auto;
-  padding: 33px 0 31px;
-  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -197,17 +195,48 @@ template, [hidden] {
 .page {
   color: #fff;
   background-color: #10101d;
+  margin: 0 auto;
   font-family: Lato, sans-serif;
 }
 
 .header__logo {
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
+  font-size: 28px;
   font-weight: 800;
 }
 
 .header__logo_span {
   color: #42a9ed;
+}
+
+.header__menu_item {
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.header__menu_item:hover {
+  color: #43abf0;
+}
+
+.header__menu {
+  gap: 60px;
+  display: flex;
+}
+
+.header__container {
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+  margin: 0 auto;
+  padding: 33px 0 31px;
+  display: flex;
 }
 
 

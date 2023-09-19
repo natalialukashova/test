@@ -1,0 +1,14 @@
+.header__menu_item {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__menu_item:hover {
+    color: #43ABF0;
+}
